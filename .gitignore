@@ -1,0 +1,40 @@
+# Laravel standard ignores
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/bootstrap/cache/*.php
+/bootstrap/cache/*.json
+
+# Environment & config
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+*.log
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# NPM / Yarn
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc build outputs
+/public/hot
+/public/build
+/storage/logs/*
+/coverage/
+/phpunit-result.xml
+/cache/
+
+# Docs and archives
+/docs/*.docx~
+/docs/*.tmp
