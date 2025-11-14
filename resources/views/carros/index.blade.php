@@ -14,7 +14,7 @@
                 <td>Opções</td>
             </tr>
         </thead>
-    
+
     <tbody>
 
     @foreach($carros as $linha)

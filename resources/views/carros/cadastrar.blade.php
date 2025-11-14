@@ -28,7 +28,7 @@
             <input type="submit" title="salvar" class="btn btn-success"/>
         </div>
     </form>
-    
+
 </div>
 
 @endsection

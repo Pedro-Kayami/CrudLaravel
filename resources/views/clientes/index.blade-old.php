@@ -20,27 +20,25 @@
         @csrf
         <div class="col">
             <div class="row">
-                <!-- Nome completo -->
+
                 <div class="col-6">
                     <label for="nome" class="form-label">Nome Completo</label>
                     <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome"
                     value="{{ old('nome') }}">
                 </div>
 
-                <!-- CPF -->
                 <div class="col">
                     <label for="cpf" class="form-label">CPF</label>
                     <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite seu CPF" value="{{ old('cpf') }}">
                 </div>
 
-                <!-- Telefone -->
                 <div class="col">
                     <label for="telefone" class="form-label">Telefone</label>
                     <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Digite seu telefone">
                 </div>
             </div>
        </div>
-      <!-- Email com ícone -->
+
        <div class="col">
         <div class="row">
             <div class="col-4">
@@ -53,7 +51,6 @@
         </div>
         </div>
 
-      <!-- Sexo -->
       <div class="mb-3">
         <label for="sexo" class="form-label">Sexo</label>
         <select class="form-select" id="sexo" name="sexo">
@@ -64,13 +61,11 @@
         </select>
       </div>
 
-      <!-- Data de nascimento -->
       <div class="mb-3">
         <label for="nascimento" class="form-label">Data de Nascimento</label>
         <input type="date" class="form-control" id="nascimento" name="nascimento">
       </div>
 
-      <!-- Estado civil -->
       <div class="mb-3">
         <label for="estadoCivil" class="form-label">Estado Civil</label>
         <select class="form-select" id="estadoCivil" name="estadoCivil">
@@ -82,19 +77,16 @@
         </select>
       </div>
 
-      <!-- Endereço -->
       <div class="mb-3">
         <label for="endereco" class="form-label">Endereço</label>
         <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Rua, número, bairro">
       </div>
 
-      <!-- Cidade -->
       <div class="mb-3">
         <label for="cidade" class="form-label">Cidade</label>
         <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Digite sua cidade">
       </div>
 
-      <!-- Estado -->
       <div class="mb-3">
         <label for="estado" class="form-label">Estado</label>
         <select class="form-select" id="estado" name="estado">
@@ -129,7 +121,6 @@
         </select>
       </div>
 
-      <!-- Botão -->
       <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
 
