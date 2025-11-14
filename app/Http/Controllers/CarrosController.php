@@ -10,7 +10,7 @@ class CarrosController extends Controller
     public function index()
     {
         $carros = Carros::all();
-        // var_dump($carros);
+
         echo "Chegou no Controller Carros";
         return view('carros.index',
                 compact('carros'));
